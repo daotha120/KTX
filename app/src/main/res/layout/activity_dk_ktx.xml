@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dk_KTX_Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baithi1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:background="#5C27B0"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DANG KY KY TUC XA"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOAI PHONG NGU"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <RadioGroup
+        android:id="@+id/rd_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rd_1giuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phong rieng 1 giuong" />
+
+        <RadioButton
+            android:id="@+id/rd_2giuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phong ghep 2 giuong" />
+
+        <RadioButton
+            android:id="@+id/rd_4giuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phong ghep 4 giuong" />
+
+        <RadioButton
+            android:id="@+id/rd_8giuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phong ghep 8 giuong" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DICH VU"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"/>
+
+    <CheckBox
+        android:id="@+id/ck_doxe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bai do xe" />
+
+    <CheckBox
+        android:id="@+id/ck_wifi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CHOOSE"
+            android:background="#5C27AF"
+            android:textColor="@color/white"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="EXIT"
+            android:background="#5C27AF"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NEXT"
+            android:background="#5C27AF"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
